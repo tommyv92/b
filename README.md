@@ -70,11 +70,11 @@ The plugin currently supports the following commands:
 	
 	4. Create a new Slash Command paying attention to the following points:
 	   
-	   - In the URL field type your Jenkins URL follow by "webhook/" (E.g. http://YOUR_JENKINS_URL/webhook/)
+	   - In the "URL" field type your Jenkins URL follow by "webhook/" (E.g. http://YOUR_JENKINS_URL/webhook/)
 	   
-	   - Leave the Method field set to POST
+	   - Leave the "Method" field set to POST
 	   
-	   - Copy the Token value
+	   - Copy the "Token" value
 	   
 <img src="extras/commandSettings1.png">
 
@@ -88,26 +88,26 @@ The plugin currently supports the following commands:
 
 	1. Download spoke-hub-integration.hpi from the spoke-hub-integration folder
 
-	2. In your Jenkins dashboard click on Manage Jenkins -> Manage Plugins -> Advanced
+	2. In your Jenkins dashboard click on "Manage Jenkins" -> "Manage Plugins" -> "Advanced"
 	
-	3. Go to Upload Plugin, choose the hpi file and click Upload
+	3. Go to "Upload Plugin", choose the hpi file and click "Upload"
 	
-<img src="extras/jenkinsSetting1.png">
+<img src="extras/jenkinsSettings1.png">
 	
-<img src="extras/jenkinsSetting2.png">
+<img src="extras/jenkinsSettings2.png">
 	
-	4. After it's installed, restart Jenkins by adding "/restart" to your Jenkins URL. Then click Yes
+	4. After it's installed, restart Jenkins by adding "/restart" to your Jenkins URL. Then click "Yes"
 	
 <img src="extras/jenkinsRestart.png">
 	
-	5. In your Jenkins dashboard click on Manage Jenkins -> Configure System
+	5. In your Jenkins dashboard click on "Manage Jenkins" -> "Configure System"
 	
-<img src="extras/jenkinsSetting3.png">
+<img src="extras/jenkinsSettings3.png">
 	
-	6. Find the Slack Slash Command Settings section, paste the Token value previously copied in the 
-	   Slash Command Token field and select the checkbox if you would like the response to be visible 
+	6. Find the "Slack Slash Command Settings" section, paste the Token value previously copied in the 
+	   "Slash Command Token" field and select the checkbox if you would like the response to be visible 
 	   to all members of the channel in which the user typed the command
 	   
-<img src="extras/jenkinsSetting4.png">
+<img src="extras/jenkinsSettings4.png">
 	
-	7. Finally, click Save button
+	7. Finally, click "Save" button

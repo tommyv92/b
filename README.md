@@ -113,4 +113,4 @@ The plugin currently supports the following commands:
 	7. Finally, click "Save" button
 	
 [jenkins-builds]: http://tommy:8080/job/SpokeHubPlugin/
-[jenkins-status]: http://tommy:8080/buildStatus/icon?job=plugins/SpokeHubPlugin
+[jenkins-status]: http://tommy:8080/buildStatus/icon?job=job/SpokeHubPlugin

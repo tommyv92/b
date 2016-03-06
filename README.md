@@ -86,7 +86,7 @@ The plugin currently supports the following commands:
 	   
 ### Jenkins Configuration
 
-	1. Download "spoke-hub-integration.hpi" file from the spoke-hub-integration folder
+	1. Download "spoke-hub-integration.hpi" file from the "spoke-hub-integration" folder
 
 	2. In your Jenkins dashboard click on "Manage Jenkins" -> "Manage Plugins" -> "Advanced"
 	

@@ -1,4 +1,4 @@
-# spoke-hub-integration - [![Build Status][jenkins-status]][jenkins-builds]
+# spoke-hub-integration
 A Hub-and-Spoke integration model of Software Engineering Tools
 
 This plugin integrates Jenkins with [Slack] (https://slack.com/).
@@ -111,6 +111,3 @@ The plugin currently supports the following commands:
 <img src="extras/jenkinsSettings4.png">
 	
 	7. Finally, click "Save" button
-	
-[jenkins-builds]: http://tommy:8080/job/SpokeHubPlugin/
-[jenkins-status]: http://tommy:8080/buildStatus/icon?job=job/SpokeHubPlugin

@@ -120,6 +120,7 @@ The plugin currently supports the following commands:
 	
 	   mvn test
 	
-	3. Create an hpi file to install the plugin in Jenkins (hpi file will be in spoke-hub-integration/target/spoke-hub-integration.hpi):
+	3. Create an hpi file to install the plugin in Jenkins (hpi file will be in 
+	   spoke-hub-integration/target/spoke-hub-integration.hpi):
 	
 	   mvn package

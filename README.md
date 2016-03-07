@@ -86,7 +86,7 @@ The plugin currently supports the following commands:
 	   
 ### Jenkins Configuration
 
-	1. Download "spoke-hub-integration.hpi" file from the "spoke-hub-integration" folder
+	1. Create "spoke-hub-integration.hpi" (see Developer Instructions below)
 
 	2. In your Jenkins dashboard click on "Manage Jenkins" -> "Manage Plugins" -> "Advanced"
 	
@@ -111,3 +111,15 @@ The plugin currently supports the following commands:
 <img src="extras/jenkinsSettings4.png">
 	
 	7. Finally, click "Save" button
+	
+# Developer Instructions
+
+	1. Install Maven and JDK
+	
+	2. To run tests:
+	
+	   mvn test
+	
+	3. Create an hpi file to install the plugin in Jenkins (hpi file will be in spoke-hub-integration/target/spoke-hub-integration.hpi):
+	
+	   mvn package
